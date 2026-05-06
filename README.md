@@ -30,115 +30,123 @@ Whether you are a student, developer, or data scientist looking to get started w
 ## 🧠 What You Will Learn
 
 ### Notebook 00 — PyTorch Fundamentals
+
 The building block of every deep learning model is the **tensor**. This notebook teaches you everything you need to know:
 
 - Creating scalars, vectors, matrices, and multi-dimensional tensors
-- - Understanding tensor shapes, dimensions, and data types
-  - - Performing arithmetic and matrix operations
-    - - Aggregating tensors (min, max, mean, sum)
-      - - Reshaping, stacking, squeezing, and permuting tensors
-        - - Indexing and slicing tensors
-          - - Converting between PyTorch tensors and NumPy arrays
-            - - Setting random seeds for reproducibility
-              - - Moving tensors to the GPU for accelerated computation
-               
-                - ### Notebook 01 — PyTorch Workflow
-                - Learn the standard end-to-end workflow every deep learning engineer follows:
-               
-                - - Preparing and splitting data for training and testing
-                  - - Building a model using `nn.Module`
-                    - - Defining a loss function and optimizer
-                      - - Writing a training loop
-                        - - Evaluating model performance
-                          - - Saving and loading models
-                            - - Making predictions on new data
-                             
-                              - ---
+- Understanding tensor shapes, dimensions, and data types
+- Performing arithmetic and matrix operations
+- Aggregating tensors (min, max, mean, sum)
+- Reshaping, stacking, squeezing, and permuting tensors
+- Indexing and slicing tensors
+- Converting between PyTorch tensors and NumPy arrays
+- Setting random seeds for reproducibility
+- Moving tensors to the GPU for accelerated computation
 
-                              ## 🚀 Getting Started
+### Notebook 01 — PyTorch Workflow
 
-                              ### Option 1 — Run in Google Colab (Recommended for Beginners)
-                              No installation required! Click any **"Open in Colab"** badge in the table above to run the notebooks directly in your browser with free GPU access.
+Learn the standard end-to-end workflow every deep learning engineer follows:
 
-                              ### Option 2 — Run Locally
+- Preparing and splitting data for training and testing
+- Building a model using `nn.Module`
+- Defining a loss function and optimizer
+- Writing a training loop
+- Evaluating model performance
+- Saving and loading models
+- Making predictions on new data
 
-                              **Step 1 — Clone the repository**
-                              ```bash
-                              git clone https://github.com/SathyaPrakashD/PyTorch-for-Deep-Learning.git
-                              cd PyTorch-for-Deep-Learning
-                              ```
+---
 
-                              **Step 2 — Create a virtual environment (optional but recommended)**
-                              ```bash
-                              python -m venv venv
-                              source venv/bin/activate        # On Windows: venv\Scripts\activate
-                              ```
+## 🚀 Getting Started
 
-                              **Step 3 — Install dependencies**
-                              ```bash
-                              pip install torch torchvision torchaudio
-                              pip install jupyter matplotlib numpy
-                              ```
+### Option 1 — Run in Google Colab (Recommended for Beginners)
 
-                              **Step 4 — Launch Jupyter Notebook**
-                              ```bash
-                              jupyter notebook
-                              ```
-                              Then open any `.ipynb` file from the file browser.
+No installation required! Click any **"Open in Colab"** badge in the table above to run the notebooks directly in your browser with free GPU access.
 
-                              ---
+### Option 2 — Run Locally
 
-                              ## 🛠️ Prerequisites
+**Step 1 — Clone the repository**
 
-                              You do not need prior deep learning experience, but the following will help:
+```bash
+git clone https://github.com/SathyaPrakashD/PyTorch-for-Deep-Learning.git
+cd PyTorch-for-Deep-Learning
+```
 
-                              - **Python basics** — variables, loops, functions, lists
-                              - - **NumPy** — familiarity with arrays is helpful but not required
-                                - - **Basic math** — comfortable with simple algebra and the idea of a function
-                                 
-                                  - ---
+**Step 2 — Create a virtual environment (optional but recommended)**
 
-                                  ## 📂 Repository Structure
+```bash
+python -m venv venv
+source venv/bin/activate
+```
 
-                                  ```
-                                  PyTorch-for-Deep-Learning/
-                                  ├── 00_pytorch_fundamentals.ipynb   # Tensors and core PyTorch operations
-                                  ├── 01_pytorch_workflow.ipynb       # End-to-end deep learning workflow
-                                  ├── LICENSE                         # MIT License
-                                  └── README.md                       # This file
-                                  ```
+**Step 3 — Install dependencies**
 
-                                  ---
+```bash
+pip install torch torchvision torchaudio
+pip install jupyter matplotlib numpy
+```
 
-                                  ## 💡 Tips for Beginners
+**Step 4 — Launch Jupyter Notebook**
 
-                                  - **Run every cell** — don't just read. Type the code yourself to build muscle memory.
-                                  - - **Experiment** — change values, break things, and observe what happens.
-                                    - - **Read error messages** — PyTorch errors are descriptive; they tell you exactly what went wrong.
-                                      - - **Use Google Colab** if you don't have a GPU — it provides free GPU/TPU access.
-                                        - - **Be patient** — deep learning has a learning curve, but each concept builds on the last.
-                                         
-                                          - ---
+```bash
+jupyter notebook
+```
 
-                                          ## 🔗 Resources
+Then open any `.ipynb` file from the file browser.
 
-                                          - [PyTorch Official Documentation](https://pytorch.org/docs/stable/index.html)
-                                          - - [PyTorch Tutorials](https://pytorch.org/tutorials/)
-                                            - - [Zero to Mastery — Learn PyTorch for Deep Learning](https://zerotomastery.io/courses/learn-pytorch/)
-                                              - - [fast.ai Practical Deep Learning](https://course.fast.ai/)
-                                               
-                                                - ---
+---
 
-                                                ## 📄 License
+## 🛠️ Prerequisites
 
-                                                This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+You do not need prior deep learning experience, but the following will help:
 
-                                                ---
+- **Python basics** — variables, loops, functions, lists
+- **NumPy** — familiarity with arrays is helpful but not required
+- **Basic math** — comfortable with simple algebra and the idea of a function
 
-                                                ## 🙏 Acknowledgements
+---
 
-                                                These notebooks are created as part of the **Zero to Mastery — PyTorch for Deep Learning** course. Special thanks to the ZTM team for the excellent curriculum.
+## 📂 Repository Structure
 
-                                                ---
+```
+PyTorch-for-Deep-Learning/
+├── 00_pytorch_fundamentals.ipynb   # Tensors and core PyTorch operations
+├── 01_pytorch_workflow.ipynb       # End-to-end deep learning workflow
+├── LICENSE                         # MIT License
+└── README.md                       # This file
+```
 
-                                                *Happy learning! If you find this repository helpful, please consider giving it a ⭐*
+---
+
+## 💡 Tips for Beginners
+
+- **Run every cell** — don't just read. Type the code yourself to build muscle memory.
+- **Experiment** — change values, break things, and observe what happens.
+- **Read error messages** — PyTorch errors are descriptive; they tell you exactly what went wrong.
+- **Use Google Colab** if you don't have a GPU — it provides free GPU/TPU access.
+- **Be patient** — deep learning has a learning curve, but each concept builds on the last.
+
+---
+
+## 🔗 Resources
+
+- [PyTorch Official Documentation](https://pytorch.org/docs/stable/index.html)
+- [PyTorch Tutorials](https://pytorch.org/tutorials/)
+- [Zero to Mastery — Learn PyTorch for Deep Learning](https://zerotomastery.io/courses/learn-pytorch/)
+- [fast.ai Practical Deep Learning](https://course.fast.ai/)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgements
+
+These notebooks are created as part of the **Zero to Mastery — PyTorch for Deep Learning** course. Special thanks to the ZTM team for the excellent curriculum.
+
+---
+
+*Happy learning! If you find this repository helpful, please consider giving it a ⭐*
